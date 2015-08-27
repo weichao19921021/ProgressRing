@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:pv="http://schemas.android.com/apk/res/com.weichao.progressring"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weichao.progressring.activity.MainActivity" >
+
+    <com.weichao.progressring.view.ProgressRing
+        android:id="@+id/pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:paddingBottom="10dp"
+        android:paddingEnd="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        pv:backgroundSrc="@drawable/sharing"
+        pv:backgroundVisibility="true"
+        pv:lengthOfSide="240dp"
+        pv:ringColor="#9e9e9e"
+        pv:ringSize="14dp"
+        pv:ringVisibility="true"
+        pv:textColor="@android:color/holo_blue_light"
+        pv:textSize="54sp"
+        pv:textVisibility="true" />
+
+</RelativeLayout>
